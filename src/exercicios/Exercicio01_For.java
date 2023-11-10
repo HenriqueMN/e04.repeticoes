@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio01_For {
 
 	public static void main(String[] args) {
-		// Algoritmo que lê dois número, um valor inicial e um valor final, e no final exibe todos os números entre eles que são múltiplos de 3 e 5
+		// Algoritmo que lê dois números, um valor inicial e um valor final, e no final exibe todos os números entre eles que são múltiplos de 3 e 5
 		
 		// Criação das variáveis e do Scanner
 		int num1, num2, multiplo;
@@ -19,11 +19,11 @@ public class Exercicio01_For {
 		
 		// For loop
 		for(int i = num1;i <= num2;i++) {
+			
+			//Para um número ser múltiplo de outro, o módulo do primeiro pelo segundo deve ser 0
 			if(i%3 == 0 && i%5 == 0) {
 				System.out.print("\nO número " + i + " é múltiplo de 3 e 5.");
 			}
 		}
-
 	}
-
 }
