@@ -17,6 +17,14 @@ public class Exercicio01_For {
 		System.out.print("Insira o número final: ");
 		num2 = input.nextInt();
 		
+		// Checando se o num1 é menor que o num2
+		if(num1 > num2) {
+			System.out.print("\nIntervalo inválido!");
+		}else {
+			System.out.print("\nNo intervalo entre " + num1 + " e " + num2 + ":");
+		}
+		
+		
 		// For loop
 		for(int i = num1;i <= num2;i++) {
 			
